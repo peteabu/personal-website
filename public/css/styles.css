@@ -11,6 +11,10 @@ body{
     border: 5px solid #FF7D04;
     height: 100%;
 }
+::selection{
+    background-color: #FF7D04;
+    color: black;
+}
 .container{
     margin: 0 auto;
     width: 48.6vw ;
