@@ -9,7 +9,7 @@
 }
 body{
     border: 5px solid #FF7D04;
-    height: 98vh;
+    height: 100%;
 }
 .container{
     margin: 0 auto;
@@ -46,3 +46,16 @@ img{
     height: 7.92vh;
     width: 48.6vw;
 }
+.last{
+    margin-bottom: 15vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 70vw;
+    }
+    img{
+        width: 70vw;
+    }
+  }
+  
